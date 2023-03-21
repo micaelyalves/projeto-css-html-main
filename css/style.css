@@ -72,26 +72,26 @@ h3{
 
 .btn {
     display: block;/* uma propriedade utilizada para organizar os elementos na página HTML*/
-    width: 100%;
+    width: 100%; /*determina a largura da área de conteúdo de um elemento*/
     text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+    text-decoration: none; /*É usada para definir a formatação de underline , overline , line-through ou blink*/
+    text-transform: uppercase; /*destina-se a definir os efeitos de capitalização (maiúsculas, minúsculas) do texto*/
     background-color: #FF00FF;
-    color: #8B008B;
-    padding: 12px;
-    border-radius: 5px;
-    transition: 1s;
+    color: #8B008B; /*É utilizada para definir a cor do texto em um determinado elemento ou para toda a página HTML*/
+    padding: 12px;/*Define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    border-radius: 5px; /*destina-se a definir bordas arredondadas*/
+    transition: 1s; /*é um poderoso recurso para a criação de efeitos de animação nos elementos HTML.*/
 }
 .btn:hover {
-    background-color:rgba(255, 0, 0, 0.409);
+    background-color:rgba(255, 0, 0, 0.409);/*Serve para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo*/
 }
 
 /* rodapé */
 footer {
-    background-color: #DDA0DD;
-    color: #fff;
-    border-top: 3px;
-    padding: 30px;
+    background-color: #DDA0DD; /*Serve para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo*/
+    color: #fff; /*É utilizada para definir a cor do texto em um determinado elemento ou para toda a página HTML*/
+    border-top: 3px;/*Aplica borda na parte superior de um elemento*/
+    padding: 30px;/*Define uma a distância entre o conteúdo de um elemento e suas bordas*/
 
 }
 
